@@ -82,9 +82,9 @@ export default function Home() {
           </p>
           <div className="btn_wrapper">
             <button className="btn view_more_btn">
-              My Notes <i className="ri-arrow-right-line" />
+              My Notes <i className="" />
             </button>
-            <button className="btn documentation_btn">documentation</button>
+            <button className="btn documentation_btn">Sign In</button>
           </div>
         </div>
         <div className="grid-item-2">
@@ -98,12 +98,7 @@ export default function Home() {
       <div className="grid-cols-3">
         <div className="grid-col-item">
           <div className="icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+            <svg>
               <path/>
             </svg>
           </div>
