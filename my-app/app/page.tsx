@@ -36,8 +36,8 @@ export default function Home() {
 
         <ul className="nav_menu_list">
           <li className="nav_menu_item">
-            <Link href="/account" className="nav_menu_link">
-              account
+            <Link href="/account" className="nav_menu_link" style={{ whiteSpace: 'nowrap' }}>
+              sign up
             </Link>
           </li>
 
@@ -48,7 +48,7 @@ export default function Home() {
           </li>
 
           <li className="nav_menu_item">
-            <a href="#" className="nav_menu_link">
+            <a href="/service" className="nav_menu_link">
               service
             </a>
           </li>
