@@ -82,7 +82,7 @@ export default function Home() {
           </p>
           <div className="btn_wrapper">
             <button className="btn view_more_btn">
-              view all pages <i className="ri-arrow-right-line" />
+              My Notes <i className="ri-arrow-right-line" />
             </button>
             <button className="btn documentation_btn">documentation</button>
           </div>
