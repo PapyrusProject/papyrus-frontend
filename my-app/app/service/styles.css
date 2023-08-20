@@ -1,0 +1,41 @@
+.services-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .services-title {
+    font-size: 36px;
+    color: white;
+    padding: 10px; /* Adicionando padding para criar espaço para o gradiente */
+    background: linear-gradient(to right, #4A90E2, #50C9C3); /* Gradiente azul */
+    border-radius: 15px; /* Borda arredondada */
+    margin-bottom: 30px;
+    display: inline-block; /* Permite que o fundo se ajuste ao texto */
+    width: 100%; /* Ocupa toda a largura da tela */
+  }
+  
+  
+  .service {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-text h2 {
+    color: #4A90E2;
+  }
+  
+  .service-icon {
+    font-size: 50px;
+    color: #4A90E2;
+  }
+  
