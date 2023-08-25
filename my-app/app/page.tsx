@@ -3,6 +3,8 @@ import Link from 'next/link';
 import link from 'react-router-dom';
 
 
+
+
 export default function Home() {
   return (
     <main>
@@ -80,12 +82,22 @@ export default function Home() {
             Build a beautiful, modern website with flexible components built
             from scratch.
           </p>
+          
+
+    
+        
+         
           <div className="btn_wrapper">
             <button className="btn view_more_btn">
               My Notes <i className="" />
             </button>
             <button className="btn documentation_btn">Sign In</button>
           </div>
+          
+
+
+
+
         </div>
         <div className="grid-item-2">
           <div className="team_img_wrapper"></div>
