@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import link from 'react-router-dom';
-
-
+import React, { Children, useState } from 'react';
+import Page from './mynotes/page';
 
 
 export default function Home() {
@@ -70,41 +69,41 @@ export default function Home() {
 
   </header>
   <section className="wrapper">
-    <div className="container">
-      <div className="grid-cols-2">
-        <div className="grid-item-1">
-          <h1 className="main-heading">
-            Welcome to <span>Papyrus.</span>
-            <br />
-            Develop anything.
-          </h1>
-          <p className="info-text">
-            Build a beautiful, modern website with flexible components built
-            from scratch.
-          </p>
-          
+        <div className="container">
+          <div className="grid-cols-2">
+            <div className="grid-item-1">
+              <h1 className="main-heading">
+                Welcome to <span>Papyrus.</span>
+                <br />
+                Develop anything.
+              </h1>
+              <p className="info-text">
+                Build a beautiful, modern website with flexible components built
+                from scratch.
+              </p>
 
-    
-        
-         
-          <div className="btn_wrapper">
-            <button className="btn view_more_btn">
-              My Notes <i className="" />
-            </button>
-            <button className="btn documentation_btn">Sign In</button>
+
+
+
+              <div className="btn_wrapper">
+              <Link href="/mynotes">
+                <button className="btn view_more_btn">
+                  My Notes <i className="" />
+                </button>
+              </Link>
+
+
+
+
+                <button className="btn documentation_btn">Sign In</button>
+              </div>
+            </div>
+            <div className="grid-item-2">
+              <div className="team_img_wrapper"></div>
+            </div>
           </div>
-          
-
-
-
-
         </div>
-        <div className="grid-item-2">
-          <div className="team_img_wrapper"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
   <section className="wrapper">
     <div className="container" data-aos="fade-up" data-aos-duration={1000}>
       <div className="grid-cols-3">
