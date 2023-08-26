@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import './styles.css';
+import { Html } from 'next/document';
 
 const modules = {
   toolbar: [
@@ -20,8 +21,8 @@ const modules = {
 const Page = () => {
   const [editorHtml, setEditorHtml] = useState('');
 
-  function handleChange(html) {
-    setEditorHtml(html);
+  function handleChange() {
+    setEditorHtml();
   }
 
   return (
