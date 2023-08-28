@@ -1,0 +1,114 @@
+.wrapper {
+    width: 100%;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+.container {
+    width: 100%;
+}
+
+.grid_cols_2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+.grid_item_1 {
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+  }
+
+.grid_item_2 {
+    width: 100%;
+    height: 100%;
+  }
+
+.main_heading {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+.main_heading span {
+    color: var(--primary-color);
+  }
+
+.info_text {
+    margin-top: 1.5rem;
+    font-size: 19px;
+    line-height: 28px;
+    color: #334157;
+  }
+
+.btn_wrapper {
+    margin-top: 3.5rem;
+    display: flex;
+    width: 100%;
+  }
+
+.btn {
+    width: 110px;
+    height: 50px;
+    background-color: var(--primary-color);
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+  }
+
+.btn:hover {
+    transform: translateY(-3px);
+    background-color: var(--btn-hover-color);
+  }
+
+.view_more_btn {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 10px;
+    box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+  }
+
+.view_more_btn i {
+    margin-left: 0.7rem;
+  }
+
+.view_more_btn:hover {
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
+
+.team_img_wrapper {
+    width: 500px;
+    max-width: 100%;
+    height: 440px;
+  }
+
+.documentation_btn {
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0;
+    background-color: #e1e7fc;
+    color: #0e2a86;
+    box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+  }
+.documentation_btn:hover {
+    background-color: #d7ddf1;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
