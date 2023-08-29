@@ -18,19 +18,17 @@ const modules = {
 };
 
 // mynotes/page.tsx
-const Page = () => {
+export default function Page() {
   const [editorHtml, setEditorHtml] = useState('');
 
   function handleChange() {
-    setEditorHtml();
+    setEditorHtml('');
   }
 
   return (
-    <div>
+    <div className='my-editor-container'>
       <h1>Papyrus.</h1>
       <ReactQuill value={editorHtml} onChange={handleChange} modules={modules} />
     </div>
   );
 };
-
-export default Page;
