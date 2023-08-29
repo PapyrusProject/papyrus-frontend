@@ -20,7 +20,7 @@ const modules = {
 const Page = () => {
   const [editorHtml, setEditorHtml] = useState('');
 
-  const handleChange = () => {
+  const handleChange = (Html) => {
     setEditorHtml(Html);
   };
 
