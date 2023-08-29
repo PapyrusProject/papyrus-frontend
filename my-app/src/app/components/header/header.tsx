@@ -15,7 +15,7 @@ export default function Header() {
 
                   <ul className={`${styles.nav_menu_list}`}>
                     <li className={`${styles.nav_menu_item}`}>
-                      <Link href="../../pages/account" className={`${styles.nav_menu_link}`} style={{ whiteSpace: 'nowrap' }}>
+                      <Link href="/account" className={`${styles.nav_menu_link}`} style={{ whiteSpace: 'nowrap' }}>
                         sign up
                       </Link>
                     </li>

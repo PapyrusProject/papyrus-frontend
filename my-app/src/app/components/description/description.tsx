@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Description() {
     return(
-        <div>
+        <div className={`${styles.containerFather}`}>
             <section className={`${styles.wrapper}`}>
                 <div className={`${styles.container}`}>
                     <div className={`${styles.grid_cols_2}`}>
