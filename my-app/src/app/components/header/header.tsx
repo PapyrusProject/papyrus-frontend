@@ -32,7 +32,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className={`${styles.nav_menu_item}`}>
-                      <Link href="#" className={`${styles.nav_menu_link}`}>
+                      <Link href="/contact" className={`${styles.nav_menu_link}`}>
                         contact
                       </Link>
                     </li>

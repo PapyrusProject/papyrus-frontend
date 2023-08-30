@@ -1,0 +1,35 @@
+.divFather {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    background: linear-gradient(to right, #4A90E2, #50C9C3);
+    border-radius: 15px;
+    color: white;
+    font-size: 36px;
+    display: inline-block;
+    width: 100%;
+}
+
+.headerText {
+    margin-top: 8px;
+}
+
+.contact {
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
