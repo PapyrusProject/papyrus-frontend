@@ -27,7 +27,7 @@ const Page = () => {
   return (
    
       <div className="my-editor-container"> {/* adicionada uma classe para estilização */}
-        <h1>Papyrus.</h1>
+        <h1 className='title'>Papyrus.</h1>
         <ReactQuill value={editorHtml} onChange={handleChange} modules={modules} />
       </div>
     );
