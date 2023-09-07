@@ -17,11 +17,11 @@ const modules = {
   ]
 };
 
-const Page = () => {
+export default function Page() {
   const [editorHtml, setEditorHtml] = useState('');
 
-  const handleChange = (Html) => {
-    setEditorHtml(Html);
+  const handleChange = () => {
+    setEditorHtml('');
   };
 
   return (
@@ -33,4 +33,3 @@ const Page = () => {
     );
 };
 
-export default Page;

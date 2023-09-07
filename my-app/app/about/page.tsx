@@ -16,7 +16,7 @@ const FeatureIcon = styled(FaCheckCircle)`
   margin-right: 10px;
 `;
 
-function About() {
+export default function About() {
   return (
     <Container>
       <Paper elevation={3} sx={{ padding: '20px', marginTop: '20px', background: `linear-gradient(45deg, ${blue[500]} 30%, ${blue[300]} 90%)` }}>
@@ -57,4 +57,3 @@ function About() {
   );
 }
 
-export default About;

@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import { FaBook, FaCalendarAlt, FaUsers } from 'react-icons/fa';
 
-const ServicesPage = () => {
+export default function ServicesPage() {
   return (
     <div className="services-container">
       <h1 className="services-title">Nossos Serviços</h1>
@@ -31,4 +31,3 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;

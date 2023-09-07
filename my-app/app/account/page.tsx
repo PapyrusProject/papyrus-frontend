@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const BlankPage = () => {
+export default function BlankPage() {
   return (
     <div className="login-container">
       <div className="login-box">
@@ -16,4 +16,3 @@ const BlankPage = () => {
   );
 };
 
-export default BlankPage;
