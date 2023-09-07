@@ -1,4 +1,14 @@
+body {
+    background: linear-gradient(to right, lightblue, darkblue);
+}
+
+.general-container {
+    display: flex;
+    justify-content: center;
+}
+
 .services-container {
+    width: 70%;
     margin: 20px;
     padding: 20px;
     background-color: #f9f9f9;
