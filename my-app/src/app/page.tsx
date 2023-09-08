@@ -145,7 +145,6 @@ export default function Home() {
       </div>
     </div>
   </section>
-  <footer />
   {/* ==== ANIMATE ON SCROLL JS CDN */}
   {/* ==== GSAP CDN ==== */}
   {/* ==== SCRIPT.JS ==== */}
